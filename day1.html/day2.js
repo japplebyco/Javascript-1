@@ -1,16 +1,15 @@
 "use strict";
 
 
-var num1 = prompt("Pick a whole number");
+var firstName = prompt("What is your First Name?");
 
- console.log(num1);
+ console.log(firstName);
  
- var num2 = prompt("Pick another whole number");
- 
- console.log(num2);
- 
-var sum = Number(num1) + Number(num2);
- alert(num1+ " plus " + num2 + " is: " + sum);
- console.log(sum);
+ var lastName = prompt("What is your Last Name?");
+ alert("This is your Last Name: " + lastName);
+ console.log(lastName);
+ var result=confirm("Your Name is: " + firstName + " " + lastName);
+ console.log(result);
+
  
  
