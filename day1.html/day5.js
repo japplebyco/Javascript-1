@@ -17,7 +17,7 @@ function capitalize(str) {
 }
 
 function reverse(str){
-	if (!str || typeof str !== "string" || str.length < 2){
+	if (!str || typeof str !== "string" || str.length < 2 || str.length % 2 == 1){
 		return ("");
 	}
 	
