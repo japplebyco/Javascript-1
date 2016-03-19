@@ -1,6 +1,93 @@
 "use strict";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var i = 100;
+ 
+do {
+	if(i % 10 === 0) {
+    console.log(i);
+	}
+	else console.log(i)
+    i-=10;
+} while (i >= 0*/
+/*
+for (var i = 90; i >= 30; i-=3) {
+    console.log(i);
+}*/
+/*
+var i = 0;
+ 
+while (i <= 10) {
+    if (i === 5 || i === 7) {
+        i++;
+        continue;
+    }
+ 
+    console.log(i);
+    i++;
+}
+
+for (var i = 0; i <= 10; i++) {
+    console.log(i);
+ 
+    if (i === 6) {
+        break;
+    }
+}
+*/	
+/*
+var fruits = ["cherry", "apple", "peach", "plum", "banana"];
+fruits.push("kiwi");
+for (var i = 0; i < fruits.length; i++) {
+    
+	if (fruits[i] === "peach") {
+		continue;
+	}
+	console.log(fruits[i]);
+}*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function square(number) {
 	if (!number || typeof number !== "number" || typeof true === 'boolean' || typeof false === 'boolean') {
 		return NaN;
@@ -52,7 +139,7 @@ return(average)
 }
 
 
-
+*/
 
 
 
