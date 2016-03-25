@@ -12,13 +12,16 @@
 <body>
 	<div class="container" id="EditWindowDiv">
 		
-		<h1>Josh Appleby's List Maker Plus:</h1>
+		<h1>My Short List:</h1>
 		<div class="input-group">
-		  <input type="text" id="ItemInput" class="form-control" placeholder="Item text...">
-		  <span class="input-group-btn">
-			<button type="button" id="ItemButton" class="btn btn-primary">Add Item!</button>
-		  </span>
-		  <input type="text" id="ItemID" style="display:none" value="0">
+			<form name="newForm" id="newForm">
+				<input type="text" id="Title" class="form-control" placeholder="Type your text here, and press the [Enter] key ...">
+			</form>
+			<br></br>
+				<div class ="container">
+				<div class ="col-md-offset-1 col-sm-offset-2 col-xs-offset-4" id="listDiv"></div>
+				</div>
+				<input type="submit" id="ItemID" style="display:none" value="Add" />
 		</div>
 	</div>
 	
