@@ -11,7 +11,7 @@ h1 {
 }
 body {
 	background-color: #000;
-	background-image: url("file://C:/Users/Josh/Desktop/bg.png");}
+	background-image: url("bg.png");}
 	background-repeat: no-repeat;
 	background-size: contain;
 	height:900px;
