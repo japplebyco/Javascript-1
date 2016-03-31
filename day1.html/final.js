@@ -12,8 +12,15 @@
             a.addEventListener("click", function () {
             });
 			div.appendChild(a);
+			a.addEventListener("click", function (evt) {
+			div.removeChild(evt.target);
+			alert("you deleted: " + evt.target.textContent);
+			})
+			
 			}
+			
         }
+		
 		function deleteList(){
 			var div = document.getElementById("listDiv");
 			div.innerHTML = "";
